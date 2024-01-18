@@ -23,6 +23,7 @@ p {
 main {
     max-width: 840px;
 }
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -32,6 +33,7 @@ aside {
     color: #333;
     text-align: center;
 }
+
 aside img {
     width: 200px;
     height: auto;
