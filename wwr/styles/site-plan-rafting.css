@@ -5,8 +5,8 @@
 :root{
     --primary-color: #b93508;
     --secondary-color: #8EA604;
-    --accent-color: #FFCF33;
-    --accent-color-2: #FFBB33;
+    --accent1-color: #FFCF33;
+    --accent2-color: #FFBB33;
 
     --heading-font: 'https://fonts.googleapis.com/css2?family=Bungee&display=swap', sans serif;
     --paragraph-font: 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth@0,75..100;1,75..100&display=swap', sans serif;
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--accent-color);
+    background-color: var(--accent1-color);
 }
 
 p {
