@@ -8,8 +8,8 @@
     --accent1-color: #FFCF33;
     --accent2-color: #FFBB33;
 
-    --heading-font: 'https://fonts.googleapis.com/css2?family=Bungee&display=swap', sans serif;
-    --paragraph-font: 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth@0,75..100;1,75..100&display=swap', sans serif;
+    --heading-font: Bungee, sans serif;
+    --paragraph-font: Open, sans serif;
     
     --nav-background-color: #FFFFFF;
     --nav-link-color: #b93508;
@@ -18,9 +18,9 @@
 }
 
 body{
-    f_____: var(--paragraph-font);
-    m_____: 960px;
-    p_____: 20px;
+    font-family: var(--paragraph-font);
+    width: 960px;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
