@@ -55,6 +55,10 @@ h1 {
     background-color: #b93508;
 }
 
+div {
+    position: relative;
+}
+
 .hero img {
     display: block;
     width: 50%;
