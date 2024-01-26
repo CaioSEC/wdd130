@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth@0,75..100;1,75..100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,539;1,75..100,539&display=swap');
+
+:root{
+    --primary-color: #b93508;
+    --secondary-color: #8EA604;
+    --accent1-color: #FFCF33;
+    --accent2-color: #FFBB33;
+
+    --heading-font: Bungee, sans serif;
+    --paragraph-font: Open, sans serif;
+    
+    --nav-background-color: #FFFFFF;
+    --nav-link-color: #b93508;
+    --nav-hover-link-color: #FFFFFF;
+    --nav-hover-background-color: #b93508;
+}
+
+header {
+    background-color:#8EA604;
+}
+
+body {
+    background-color: #FFBB33;
+}
+
+nav {
+    font-family: sans-serif;
+    background-color:var(--nav-background-color)
+}
+
+nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    text-decoration:none;
+    color: #FFFFFF;
+    background-color: #b93508;
+}
+
+.hero img {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+article img {
+    float: right;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: #FFFFFF;
+    background-color: #b93508;
+}
+
+p {
+    font-family: sans-serif;
+
+}
+
+article {
+    font-family: sans-serif;
+
+}
+
+footer {
+    background-color: var(--secondary-color);
+}
