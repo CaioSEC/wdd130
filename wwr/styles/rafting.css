@@ -85,6 +85,7 @@ h1 {
 
 div {
     position: relative;
+    margin: 1rem auto;
 }
 
 hero {
@@ -118,10 +119,11 @@ article {
 
 }
 
-.grid-container img {
+.grid-container{
     display: grid;
+    grid-template-columns: 30rem 30rem 30rem;
+    gap: 8rem;
     margin: 1rem auto;
-    grid-template-columns: 500px 500px 500px;
     padding: 10px;
 }
 
