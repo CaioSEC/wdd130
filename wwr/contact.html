@@ -57,24 +57,35 @@
                 <form>
                     <label for="q1">Your Name:</label><br>
                     <input type="text" id="q1" name="q1"><br>
-    
-                    <label for="q2">Your E-Mail Adress:</label><br>
-                    <input type="text" id="q2" name="q2"><br>
-    
-                    <label for="q3">Purpose of the Contact:</label>
-                    <select id="q3" name="q3">
-                        <option value="general">General Inquiry</option>
-                        <option value="reservation">Reservation Question</option>
-                        <option value="website">Website Sugestion</option>
-                    </select><br>
- 
-                    <label for="q4">Your Message:</label><br>
-                    <textarea id="q4" name="q4" rows="3"></textarea><br>
 
-                    <label for="q5">Please subscribe me to the monthly newsletter:</label>
-                    <input type="checkbox" id="q5" name="q5"><br>
+                    <label for="q2">Your Age:</label><br>
+                    <input type="number" min="12" max="100" id="q2" name="q2"><br>
+    
+    
+                    <label for="q3">Your E-Mail Adress:</label><br>
+                    <input type="text" id="q3" name="q3"><br>
+
+                    <fieldset>
+                        <legend>Purpose of the Contact:</legend>
+                        
+                                <label for="q4a">General Inquiry</label>
+                                <input type="radio" id="q4a" name="q4" />
+
+                                <label for="q4a">Reservation Question</label>
+                                <input type="radio" id="q4b" name="q4" />
+
+                                <label for="q4a">Website Suggestion</label>
+                                <input type="radio" id="q4c" name="q4" />
  
-                    <button class="favorite styled" type="submit">Submit</button>
+                    </fieldset>
+ 
+                    <label for="q5">Your Message:</label><br>
+                    <textarea id="q5" name="q5" rows="3"></textarea><br>
+
+                    <label for="q6">Please subscribe me to the monthly newsletter:</label>
+                    <input type="checkbox" id="q6" name="q6"><br>
+ 
+                    <button class="favorite styled" type="buttom">Send Us Your Message!</button>
                 </form>
             </section>
         </main>
