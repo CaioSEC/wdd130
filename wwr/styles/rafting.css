@@ -79,6 +79,7 @@ main {
 h1 { 
     font-family: var(--heading-font);
     text-decoration:none;
+    padding: 8px;
     color: #FFFFFF;
     background-color: #b93508;
 }
@@ -106,6 +107,7 @@ article img {
 h2 {
     font-family: var(--heading-font);
     color: #FFFFFF;
+    padding: 8px;
     background-color: #b93508;
 }
 
@@ -143,4 +145,43 @@ footer a:hover {
     margin-top: 15px;
     display: inline;
     width: 20px;
+}
+
+.form {
+    align-items: center;
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-bottom: 10rem;
+}
+
+
+input {
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+select {
+    margin-bottom: 8px;
+}
+
+textarea {
+    padding: 8px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px;
+}
+
+.styled {
+    font-size: 1.2rem;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 10px;
+}
+
+.styled:hover {
+    background-color: #b93508;
+    color: #FFFFFF;
 }
