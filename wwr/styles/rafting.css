@@ -86,7 +86,7 @@ h1 {
 
 div {
     position: relative;
-    margin: 1rem auto;
+    margin: 1rem ;
 }
 
 hero {
@@ -154,7 +154,6 @@ footer a:hover {
     margin-bottom: 10rem;
 }
 
-
 input {
     padding: 8px;
     margin-bottom: 8px;
@@ -188,3 +187,56 @@ button {
 fieldset {
     border: none;
 }
+
+.link {
+    justify-content: center;
+    margin-left: 10rem;
+    display:flex;
+    width: 30rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-size: 1.5rem;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.link:hover {
+    background-color:#8EA604;
+    color:#FFFFFF;
+}
+
+.link:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.trips{
+    display: flex;
+    justify-content: center;
+
+}
+.trips img {
+    width: 20rem;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #b93508;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #FFCF33;
+  }
+
+  figure {
+    font: 1em sans-serif;
+  }
