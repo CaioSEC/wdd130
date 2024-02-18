@@ -225,12 +225,14 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
   }
   
   td, th {
     border: 1px solid #b93508;
     text-align: left;
-    padding: 8px;
+    padding: 10px;
   }
   
   tr:nth-child(even) {
@@ -240,3 +242,32 @@ table {
   figure {
     font: 1em sans-serif;
   }
+
+.homeimage{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.2px;
+}
+.homeimage img{
+    width: 150%;
+    height: auto;
+  }
+
+.connect{
+    display:flex;
+}
+
+.connect img{
+    display: grid;
+    width: 30%;
+    float:right;
+    margin-right: 2rem;
+}
+
+figcaption{
+    display:grid;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-bottom: 10rem;
+}
+
