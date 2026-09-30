@@ -26,6 +26,23 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    background-color: #e9c46a;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    flex: 1 1 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -60,6 +77,12 @@ article {
     padding: 8px;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
 article {
     position: absolute;
     top: 350px;
@@ -85,6 +108,24 @@ article {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+section h2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section p {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+section img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 20%;
 }
 
 footer img {
