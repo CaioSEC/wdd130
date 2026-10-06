@@ -153,6 +153,89 @@ article {
     margin-top: 8px;
 }
 
+.information {
+    text-align: center;
+}
+
+.information {
+    margin-bottom: 5px;
+}
+
+.information {
+    margin-top: 0;
+}
+
+.contact-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+
+    margin: 20px auto;
+    max-width: 1100px;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 8px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.contact-form textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+.contact-form p {
+    margin: 0;
+}
+
+.contact-form label {
+    align-self: center;
+}
+
+.contact-form label:has(input[type="radio"]),
+.contact-form label:has(input[type="checkbox"]) {
+    grid-column: 2;
+}
+
+.profiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 1100px;
+}
+
+.profiles h2 {
+    grid-column: 1 / 4;
+    text-align: center;
+    margin: 0;
+}
+
+.profiles {
+    text-align: center;
+}
+
+.profiles img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.profiles p {
+    margin-top: 5px;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
