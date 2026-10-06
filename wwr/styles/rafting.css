@@ -153,16 +153,12 @@ article {
     margin-top: 8px;
 }
 
+.information h2 {
+    margin-bottom: 20px;
+}
+
 .information {
     text-align: center;
-}
-
-.information {
-    margin-bottom: 5px;
-}
-
-.information {
-    margin-top: 0;
 }
 
 .contact-main {
