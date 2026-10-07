@@ -212,7 +212,7 @@ article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-
+    text-align: center;
     margin: 20px auto;
     padding: 10px;
     max-width: 1100px;
@@ -222,10 +222,6 @@ article {
     grid-column: 1 / 4;
     text-align: center;
     margin: 0;
-}
-
-.profiles {
-    text-align: center;
 }
 
 .profiles img {
