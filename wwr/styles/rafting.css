@@ -50,7 +50,6 @@ h2 {
 }
 
 h1 {
-    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -97,6 +96,13 @@ article {
 
 .hero {
     position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .hero img {
