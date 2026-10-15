@@ -3,7 +3,7 @@
     --secondary-color: #f4a261;
     --accent1-color: #264653;
     --accent1-color: #e9c46a;
-    --heading-font: "Times New Roman", "Georgia", serif;
+    --heading-font: "Tahoma", "Trebuchet MS", sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -52,11 +52,10 @@ h2 {
 h1 {
     top: 20px;
     width: 100%;
-    padding: 16px;
+    padding: 1px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: white;
+    color: var(--secondary-color);
 }
 
 h2 {
@@ -232,6 +231,23 @@ article {
 
 .profiles p {
     margin-top: 5px;
+}
+
+.home-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.homeform,
+.trips {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.homeform h2 {
+    margin-bottom: 30px;
 }
 
 footer {
