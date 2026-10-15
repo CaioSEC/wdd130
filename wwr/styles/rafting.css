@@ -236,18 +236,24 @@ article {
 .home-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 45px;
     align-items: start;
+    margin: 25px;
 }
 
 .homeform,
 .trips {
+    min-width: 0;
     width: 100%;
     box-sizing: border-box;
 }
 
-.homeform h2 {
-    margin-bottom: 30px;
+.homeform h2,
+.trips h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding: 15px;
 }
 
 footer {
